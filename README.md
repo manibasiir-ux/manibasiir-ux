@@ -2,7 +2,7 @@
 
 **I build machine learning for physical systems: robots, industrial machines, and the people who operate them.**
 
-ML/AI engineer focused on perception, multimodal AI and machine learning for robotics. Before ML I worked in industrial automation (Siemens PLC, EPLAN, RoboDK), so I design models around the machine they run on and the operator who has to trust them.
+ML/AI engineer focused on perception, multimodal AI and machine learning for robotics. Before ML I worked in industrial automation (Siemens PLC, EPLAN), so I design models around the machine they run on and the operator who has to trust them.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-mani--basir-0A66C2)](https://www.linkedin.com/in/mani-basir) [![Email](https://img.shields.io/badge/Email-manibasiir%40gmail.com-D14836)](mailto:manibasiir@gmail.com)
 
@@ -42,10 +42,10 @@ A WebGL sculpture driven by live audio analysis, built from a written spec to de
 
 ## Stack
 
-**ML:** Python · scikit-learn · [DL FRAMEWORK] · SHAP · pandas · NumPy
+**ML:** Python · scikit-learn · PyTorch . TensorFlow . Keras · SHAP · pandas · NumPy
 **AI systems:** LLM APIs · multimodal (text + audio) pipelines · n8n · Streamlit
 **Engineering:** Docker · GitHub Actions · Playwright · TypeScript · Next.js
-**Industrial automation:** Siemens S7 (TIA Portal, STEP 7) · EPLAN Electric P8 · RoboDK
+**Industrial automation:** Siemens S7 (TIA Portal, STEP 7) · EPLAN Electric P8 
 
 ## What I'm looking for
 
