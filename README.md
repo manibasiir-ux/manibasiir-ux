@@ -10,12 +10,17 @@ ML/AI engineer focused on perception, multimodal AI and machine learning for rob
 
 | Want to see | Start here | What it shows |
 |---|---|---|
+| Deep learning & computer vision | [CIFAR10_CNN_Webcam_Classifier](https://github.com/manibasiir-ux/CIFAR10_CNN_Webcam_Classifier) | CNN trained from scratch, per-layer fine-tuning, 81.94% test accuracy, live webcam inference with an "unknown" threshold |
 | ML on industrial data | [Manine](https://github.com/manibasiir-ux/Manine) | Imbalanced classification, choosing a model by the cost of a missed failure, SHAP explanations, a working app |
 | Unsupervised ML at scale | [AI_Jobs_Market_Clustering](https://github.com/manibasiir-ux/AI_Jobs_Market_Clustering) | 90,000 records, three pipelines, KMeans vs DBSCAN vs hierarchical, three cluster-validity metrics |
 | Engineering discipline | [TIMBRE](https://github.com/manibasiir-ux/TIMBRE) | 520 automated tests, CI with a bundle-size gate, Lighthouse accessibility 100, Docker |
-<!-- Add your deep learning / computer vision projects as the first rows -->
 
 ## Projects
+
+### CIFAR-10 CNN Webcam Classifier
+A CNN trained from scratch on CIFAR-10, fine-tuned with a separate optimizer per layer, and run live on a webcam with OpenCV. 81.94% on the 10,000-image test set. The README shows where it fails on real webcam input (my face is apparently a cat) and what the "unknown" threshold can and can't fix.
+
+**Signal:** CNNs · fine-tuning · real-time inference · honest evaluation
 
 ### Manine: explainable failure-risk prediction for industrial machines
 Predicts whether a drill, lathe or mill is at risk of failure from temperature, vibration, power and humidity, and explains each prediction with SHAP. The data is 70/30 imbalanced, so I chose a class-balanced model that actually catches failures over models with higher accuracy that mostly predicted "normal". The README documents the trade-off and its limits.
